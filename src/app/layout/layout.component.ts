@@ -12,4 +12,8 @@ export class LayoutComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getEvent(e: string) {
+    console.log(e);
+  }
+
 }
